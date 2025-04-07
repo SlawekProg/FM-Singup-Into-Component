@@ -1,4 +1,81 @@
+.fcc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+body{
+    width: 1440px;
+    height: 100vh;
+
+
+    background-color:hsl(0, 100%, 74%);
+}
+.main{
+    max-width: 1000px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: 50% 50%;
+    margin: 100px;
+}
+.left{
+    grid-area: 1/1/3/2;
+    margin: 30px;
+}
+.try{
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+    color: aliceblue;
+    grid-area: 1/2/2/3;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+
+    background-color:  hsl(248, 32%, 49%);
+}
+.right{
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+    grid-area:2/2/3/3;
+    border-radius: 10px;
+    height: 70%;
+
+
+    background-color: aliceblue;
+}
+.inputs{
+    width: 100%;
+    height: 100%;
+}
+button, #in{
+    width: 85%;
+    height: 12%;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+#in{
+    font-size: 18px;
+    padding-left: 30px;
+}
+button{
+    color: aliceblue;
+    background-color: hsl(154, 59%, 51%);
+    width: 91%;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+a, .info{
+    font-size: 10px;
+}
+.info{
+   margin-right: 5px; 
+}
 
 
 
